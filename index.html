@@ -7,23 +7,25 @@
     <link rel="stylesheet" href="css/style.css"> <!--para enlazar el archivo css-->
     <link rel="preconnect" href="https://fonts.googleapis.com"> <!--para enlazar las fuentes de google-->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!--para enlazar las fuentes de google-->
-    <title>Portafolio Ing.Alejandro Montoya T.</title> <!--titulo de la pagina-->
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet"> <!--para enlazar las fuentes de google-->
+    <title>Portafolio ISC.Alejandro Montoya T.</title> <!--titulo de la pagina-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"><!--para enlazar las fuentes de google-->
 </head> <!--fin de la cabecera de la pagina-->
 
 <body>
 <!-- Menu -->
 <header class="cabecera" > <!--para la cabecera de la pagina-->
     <img class="cabecera__logo" src="assets/vector.png" alt="Logo"> <!--para agregar el logo-->
-    <h1 class="cabecera__titulo">Alura Latam</h1> <!--para agregar el titulo-->
+    <h1 class="cabecera__titulo">ISC.Alejandro Montoya T.</h1> <!--para agregar el titulo-->
     <nav class="navegacion__lista">
         <ul class="navegacion__lista">
-            <li class="navegacion__elemento"> <a href="#Sobre-mi">Sobre mí</a></li>
-            <li class="navegacion__elemento"> <a href="#habilidades">Habilidades</a></li>
-            <li class="navegacion__elemento"> <a href="#aficciones">Aficciones</a></li>
+            <li class="navegacion__elemento"> <a href="#sobre-mi">Sobre mí</a></li>
+            <li class="navegacion__elemento"> <a href="#habilidades">Skills</a></li>
+            <li class="navegacion__elemento"> <a href="#aficiones">Hobbies</a></li>
             <li class="navegacion__elemento"> <a href="#formacion">Formación</a></li>
             <li class="navegacion__elemento"> <a href="#proyectos">Proyectos</a></li>
-            <li class="navegacion__elemento"> <a href="#contacto">Contacto</a></li>
+            <li class="navegacion__elemento"> <a href="#contacto">isc.alejandro14@icloud.com</a></li>
         </ul>
     </nav>
 </header>
@@ -48,17 +50,21 @@
     <p class="sobre-mi__texto">Desarrollador Full-Stack Jr. con conocimientos en JavaScript, Java, Spring Boot, Angular, MySQL y PostgreSQL.</p>
     <p class="sobre-mi__texto">He colaborado en proyectos bajo soporte ITIL. Busco crecer en equipos dinámicos y asumir nuevos retos.</p>
     <!--Firma opcional-->
-    <img class="sobre-mi__firma" src="assets/signature.png" alt="Firma">
+    <!--<img class="sobre-mi__firma" src="assets/signature.png" alt="Firma">-->
 </section>
 
 <!-- Seccion de Habilidade -->
-<section class="habilidades" id="habilidade">
+<section class="habilidades" id="habilidades">
     <h2 class="habilidades__titulo">Skills</h2>
     <ul class="habilidades__lista">
        <li class="habilidades__elemento">
            <img class="habilidades__icono" src="assets/htlm.png" alt="HTML">
            <p class="habilidades__nombre">HTML 5</p>
        </li>
+        <li class="habilidades__elemento">
+            <img class="habilidades__icono" src="assets/css_icon.png" alt="CSS">
+            <p class="habilidades__nombre">CSS</p>
+        </li>
         <li class="habilidades__elemento">
             <img class="habilidades__icono" src="assets/js_icon.png" alt="JavaScript">
             <p class="habilidades__nombre">JavaScript</p>
@@ -76,9 +82,9 @@
             <p class="habilidades__nombre">React</p>
         </li>
         <li class="habilidades__elemento">
-            <img class="habilidades__icono" src="assets/css_icon.png" alt="CSS">
-            <p class="habilidades__nombre">CSS</p>
-        </li>
+            <img class="habilidades__icono" src="assets/mysql.png" alt="Spring Boot">
+            <p class="habilidades__nombre">MySql</p>
+
     </ul>
 </section>
 
@@ -103,8 +109,11 @@
             <p class="aficiones__nombre">Oír Musica</p>
         </li>
         <li class="aficiones__elemento">
+            <img class="aficiones__icono" src="assets/libro.png" alt="Leer">
+            <p class="aficiones__nombre">Leer</p>
+        <li class="aficiones__elemento">
             <img class="aficiones__icono" src="assets/tv_icon.png" alt="Series&Anime">
-            <p class="aficiones__nombre">Series, Anime y Peliculas</p>
+            <p  class="aficiones__nombre">Series, Anime y Peliculas</p>
         </li>
         <li class="aficiones__elemento">
             <img class="aficiones__icono" src="assets/forkspoon_icon.png" alt="Cocinar">
@@ -132,6 +141,13 @@
             </div>
         </li>
         <li class="formacion__elemento">
+            <img class="formacion__icono" src="assets/infotec.png" alt="infotec">
+            <div>
+                <h3 class="formacion__nombre">INFOTEC</h3>
+                <p class="formacion__detalle">2024 - Alura Latam</p>
+            </div>
+        </li>
+        <li class="formacion__elemento">
         <img class="formacion__icono" src="assets/alura_logo.png" alt="Alura">
         <div>
             <h3 class="formacion__nombre">Formacion de Desarrollador</h3>
@@ -154,7 +170,7 @@
     </div>
 </section>-->
 
-<!-- Sección de Contacto -->
+<!-- Sección de Contacto
 <section class="contacto" id="contacto">
     <h2 class="contacto__titulo">Contacto</h2>
     <form class="contacto__formulario">
@@ -164,6 +180,14 @@
         <button class="contacto__boton" type="submit">Enviar</button>
     </form>
 </section>
+    <!-- Sección de Footer
+    <section class="footer">
+        <div class="footer__rodape">
+            <p>Ingeniero En Sistemas Computacionales Alejandro Montoya T.</p>
+            <p>2024</p>
+        </div>
+    </section>-->
+<script src="js/script.js"></script>
 </body>
-<script src="script.js"></script>
+
 </html>
